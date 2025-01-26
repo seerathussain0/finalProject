@@ -37,7 +37,7 @@ const Login = () => {
     console.log(formData);
 
     try {
-      const response = await fetch("http://localhost:8000/api/user/register", {
+      const response = await fetch("https://final-project-backend-beige.vercel.app/api/user/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -62,7 +62,7 @@ const Login = () => {
     console.log(loginData);
 
     try {
-      const response = await fetch("http://localhost:8000/api/user/login", {
+      const response = await fetch("https://final-project-backend-beige.vercel.app/api/user/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

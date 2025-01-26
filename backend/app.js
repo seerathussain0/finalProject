@@ -21,7 +21,7 @@ const app = express();
 app.use(express.json()); // Parse JSON bodies
 app.use(cookieParser()); // Parse cookies
 app.use(cors({
-    origin: "http://localhost:5173", // Corrected origin (no trailing slash)
+    origin: "https://final-project-9qfj.vercel.app", // Corrected origin (no trailing slash)
     credentials: true, // Allow credentials (cookies, etc.)
 }));
 

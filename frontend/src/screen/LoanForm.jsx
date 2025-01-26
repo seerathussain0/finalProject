@@ -66,7 +66,7 @@ const LoanFormPage = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('http://localhost:8000/api/loan/create', {
+      const response = await fetch('https://final-project-backend-beige.vercel.app/api/loan/create', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
